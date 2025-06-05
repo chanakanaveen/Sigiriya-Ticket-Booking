@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Travela - Tourism Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Elfsight AI Chatbot | Untitled AI Chatbot -->
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-29c94de5-a843-4476-8b54-3ce48b847d78" data-elfsight-app-lazy></div>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+          <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0"><img src="img/logo3.png" alt="Logo"> Sigiriya</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link " data-i18n="home">Home</a>
+                        <a href="about.html" class="nav-item nav-link" data-i18n="about">About</a>
+                        <a href="gallery.html" class="nav-item nav-link" data-i18n="gallery">Our Gallery</a>
+                        <a href="contact.html" class="nav-item nav-link" data-i18n="maps">Map</a>
+                        <a href="tour.html" class="nav-item nav-link" data-i18n="tour">Tours</a>
+                    </div>
+                    <a href="booking.html" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Book Now</a>
+                    <div class="py-3 ms-lg-4">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  btn btn-dark text-white" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" >
+                                Lang
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="langDropdown">
+                                <li><a class="dropdown-item lang-select" href="#" data-lang="en">English</a></li>
+                                <li><a class="dropdown-item lang-select" href="#" data-lang="si">සිංහල</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4" data-i18n="onlinebooking">Online Booking</h1>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-white">Online Booking</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+         <!-- Explore Tour Start -->
+        <div class="container-fluid ExploreTour">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                    <h5 class="section-title px-3" data-i18n="onlinebooking">Online Booking</h5>
+                    <h1 class="mb-4" data-i18n="etickert">eTicket reservation for Sigiriya</h1>
+                    <!-- <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.
+                    </p> -->
+                </div>
+                <div class="tab-class text-center">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#NationalTab-1" >
+                                <span class="text-dark" style="width: 250px;" data-i18n="local">Local</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#InternationalTab-2" >
+                                <span class="text-dark" style="width: 250px;" data-i18n="foreign">Foreign</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <!-- <div id="NationalTab-1" class="tab-pane fade show p-0 active">
+                                            <div class="container-fluid booking py-5">
+                                <div class="container py-5">
+                                    <div class="row g-5 align-items-center">
+                                        
+                                        <div class="col-lg-12">
+                                            <h1 class="text-white ">Book Tickets</h1>
+                                            <form>
+                                                <div class="row g-3">
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control bg-white border-0" id="name" placeholder="Your Name">
+                                                            <label for="name">Your Name</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="email" class="form-control bg-white border-0" id="email" placeholder="Your Email">
+                                                            <label for="email">Your Email</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating date" id="date3" data-target-input="nearest">
+                                                            <input type="text" class="form-control bg-white border-0" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
+                                                            <label for="datetime">Date & Time</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <select class="form-select bg-white border-0" id="select1">
+                                                                <option value="1">Destination 1</option>
+                                                                <option value="2">Destination 2</option>
+                                                                <option value="3">Destination 3</option>
+                                                            </select>
+                                                            <label for="select1">Destination</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <select class="form-select bg-white border-0" id="SelectPerson">
+                                                                <option value="1">Persons 1</option>
+                                                                <option value="2">Persons 2</option>
+                                                                <option value="3">Persons 3</option>
+                                                            </select>
+                                                            <label for="SelectPerson">Persons</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <select class="form-select bg-white border-0" id="CategoriesSelect">
+                                                                <option value="1">Kids</option>
+                                                                <option value="2">1</option>
+                                                                <option value="3">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                            <label for="CategoriesSelect">Categories</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-floating">
+                                                            <textarea class="form-control bg-white border-0" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                                            <label for="message">Special Request</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <button class="btn btn-primary text-white w-100 py-3" type="submit">Book Now</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div id="NationalTab-1" class="tab-pane fade show p-0 active">
+                            <div class="container-fluid booking py-5">
+                                <div class="container py-5">
+                                    <div class="row g-5 align-items-center">
+                                        <div class="col-lg-12">
+                                            <h1 class="text-white" data-i18n="book">Book Tickets</h1>
+                                            <form id="bookingForm">
+                                                <div class="row g-3">
+                                                    <!-- Personal Details -->
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control bg-white border-0" id="nic" placeholder="NIC" required>
+                                                            <label for="nic" data-i18n="nic" >NIC</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control bg-white border-0" id="name" placeholder="Your Name" required>
+                                                            <label for="name" data-i18n="name">Your Name</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="tel" class="form-control bg-white border-0" id="telephone" placeholder="Telephone" required>
+                                                            <label for="telephone" data-i18n="mobile">Telephone</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control bg-white border-0" id="address" placeholder="Address" required>
+                                                            <label for="address" data-i18n="address">Address</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="email" class="form-control bg-white border-0" id="email" placeholder="Your Email" required>
+                                                            <label for="email" data-i18n="email">Your Email</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <select class="form-select bg-white border-0" id="visitingHours" required>
+                                                                <option value="" disabled selected data-i18n="visti">Select Visiting Hours</option>
+                                                                <option value="7:00-9:00">7:00 AM - 9:00 AM</option>
+                                                                <option value="9:00-11:00">9:00 AM - 11:00 AM</option>
+                                                                <option value="11:00-13:00">11:00 AM - 1:00 PM</option>
+                                                                <option value="13:00-15:00">1:00 PM - 3:00 PM</option>
+                                                                <option value="15:00-17:00">3:00 PM - 5:00 PM</option>
+                                                            </select>
+                                                            <label for="visitingHours" data-i18n="vis">Visiting Hours</label>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Reservation Details -->
+                                                    <div class="col-md-3">
+                                                        <div class="form-floating">
+                                                            <input type="number" min="0" class="form-control bg-white border-0" id="adults" placeholder="Adults" value="1" required>
+                                                            <label for="adults" data-i18n="adults">Adults</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="form-floating">
+                                                            <input type="number" min="0" class="form-control bg-white border-0" id="children" placeholder="Children" value="0" required>
+                                                            <label for="children" data-i18n="children">Children</label>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Buttons -->
+                                                    <div class="col-12 d-flex justify-content-center gap-4">
+                                            
+                                                        <button type="button" class="btn btn-primary" id="nextBtn">Submit</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="InternationalTab-2" class="tab-pane fade show p-0">
+                            <div class="container-fluid booking py-5">
+                                <div class="container py-5">
+                                    <div class="row g-5 align-items-center">
+                                        <div class="col-lg-12">
+                                            <h1 class="text-white" data-i18n="bookfor">Book Tickets (Foreign)</h1>
+                                            <form id="foreignBookingForm">
+                                                <div class="row g-3">
+                                                    <!-- Personal Details -->
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control bg-white border-0" id="passport" placeholder="Passport No" required>
+                                                            <label for="passport" data-i18n="passport">Passport No</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control bg-white border-0" id="foreignName" placeholder="Your Name" required>
+                                                            <label for="foreignName" data-i18n="name">Your Name</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="tel" class="form-control bg-white border-0" id="foreignTelephone" placeholder="Telephone" required>
+                                                            <label for="foreignTelephone" data-i18n="mobile">Telephone</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control bg-white border-0" id="foreignAddress" placeholder="Address" required>
+                                                            <label for="foreignAddress" data-i18n="address">Address</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <input type="email" class="form-control bg-white border-0" id="foreignEmail" placeholder="Your Email" required>
+                                                            <label for="foreignEmail" data-i18n="email">Your Email</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <select class="form-select bg-white border-0" id="country" required>
+                                                                <option value="" disabled selected  data-i18n="selectcountry">Select Country</option>
+                                                                <option value="USA">USA</option>
+                                                                <option value="UK">UK</option>
+                                                                <option value="India">India</option>
+                                                                <option value="China">China</option>
+                                                                <option value="Australia">Australia</option>
+                                                                <option value="Other">Other</option>
+                                                            </select>
+                                                            <label for="country" data-i18n="country">Country</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-floating">
+                                                            <select class="form-select bg-white border-0" id="foreignVisitingHours" required>
+                                                                <option value="" disabled selected data-i18n="visti">Select Visiting Hours</option>
+                                                                <option value="7:00-9:00">7:00 AM - 9:00 AM</option>
+                                                                <option value="9:00-11:00">9:00 AM - 11:00 AM</option>
+                                                                <option value="11:00-13:00">11:00 AM - 1:00 PM</option>
+                                                                <option value="13:00-15:00">1:00 PM - 3:00 PM</option>
+                                                                <option value="15:00-17:00">3:00 PM - 5:00 PM</option>
+                                                            </select>
+                                                            <label for="foreignVisitingHours" data-i18n="vis">Visiting Hours</label>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Reservation Details -->
+                                                    <div class="col-md-3">
+                                                        <div class="form-floating">
+                                                            <input type="number" min="0" class="form-control bg-white border-0" id="foreignAdults" placeholder="Adults" value="1" required>
+                                                            <label for="foreignAdults" data-i18n="adults">Adults</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="form-floating">
+                                                            <input type="number" min="0" class="form-control bg-white border-0" id="foreignChildren" placeholder="Children" value="0" required>
+                                                            <label for="foreignChildren"  data-i18n="children">Children</label>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Buttons -->
+                                                    <div class="col-12 d-flex justify-content-center gap-4">
+                                                        <button type="button" class="btn btn-primary" id="foreignNextBtn">Submit</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Explore Tour Start -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-8 col-lg-8 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white" data-i18n="getin">Get In Touch</h4>
+                            <a href="" data-i18n="adds"><i class="fas fa-home me-2" ></i> Sigiriya, Central Province, Sri Lanka</a>
+                            <a href=""><i class="fas fa-envelope me-2"></i> info@sigiriya.com</a>
+                            <a href="" class="mb-3"><i class="fas fa-phone me-2"></i> +94 76 345 67890</a>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-white me-2"></i>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-8 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white" data-i18n="company">Company</h4>
+                            <a href="about.html"  data-i18n="about"><i class="fas fa-angle-right me-2"></i> About</a>
+                            <a href="gallery.html" data-i18n="gallery"><i class="fas fa-angle-right me-2" ></i> Our Gallery</a>
+                            <a href="tour.html" data-i18n="tour"><i class="fas fa-angle-right me-2" ></i> Tours</a>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-8 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white" data-i18n="support">Support</h4>
+                            <a href="contact.html" data-i18n="contact"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                    
+                            <a href="" data-i18n="privacy"privacy><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                            <a href="" data-i18n="terms"terms><i class="fas fa-angle-right me-2"></i> Terms and Conditions</a>
+                           
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright text-body py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-end mb-md-0">
+                        <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Sigiriya Sri Lanka</a>, All right reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        Designed By <a class="text-white" href="">Sayuri Sankalpana</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Visitor Count Display - Top Left Corner -->
+        <div id="visitorDisplay" class="visitor-display">
+            <div class="visitor-display-content">
+                <i class="fas fa-users text-white me-2"></i>
+                <span class="visitor-text">Visitors: </span>
+                <span id="visitorCount" class="visitor-count">0</span>
+            </div>
+        </div>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <!-- Reservation Confirmation Modal -->
+        <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmationModalLabel">Reservation Confirmation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Count</th>
+                            <th id="confAmountHeader">Amount </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="confType">Sigiriya-All-Local</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Adults <span id="confAdults"></span></td>
+                            <td id="confAdultsAmt"></td>
+                        </tr>
+                        <tr>
+                            <td>Children <span id="confChildren"></span></td>
+                            <td id="confChildrenAmt"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Total</strong></td>
+                            <td id="confTotal"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Combined Total</strong></td>
+                            <td id="confCombinedTotal"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button id="generateTicketBtn" type="button" class="btn btn-success" data-bs-dismiss="modal">Generate Ticket</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Update the ticket template to match the image format -->
+        <div id="ticketDiv" style="display:none; font-family: Arial, sans-serif; width:300px; margin:0 auto; border:1px solid #000; padding:15px; background:white;">
+            <div style="text-align:center; margin-bottom:10px;">
+                <div style="font-size:20px; font-weight:bold;">Sigiriya</div>
+                <div style="font-size:10px; color:#666;">WORLD HERITAGE SITE</div>
+            </div>
+            
+            <div style="text-align:center; margin:15px 0;">
+                <canvas id="ticketQRCanvas" style="width:80px; height:80px;"></canvas>
+            </div>
+            
+            <div style="font-size:11px; margin-bottom:5px; font-weight:bold;">
+                <span id="ticketSerial"></span>
+            </div>
+            
+            <div style="font-size:11px; margin-bottom:5px;">
+                <span id="ticketDate"></span><br>
+                <span style="font-size:9px;">Valid for the date of issue</span>
+            </div>
+            
+            <div style="font-size:11px; margin-bottom:5px;">
+                Ticket Type: <span id="ticketType"></span>
+            </div>
+            
+            <div style="font-size:24px; font-weight:bold; margin:10px 0; display:flex; justify-content:space-between;">
+                <span id="ticketPerson">ADULT</span>
+                <span id="ticketAmount"></span>
+            </div>
+            
+            <div style="font-size:8px; margin-top:15px; line-height:1.2;">
+                All the income generated from your ticket goes towards<br>
+                the Protection, Preservation and Presentation of Sri<br>
+                Lankan Heritage<br>
+                <strong>www.ccf.gov.lk</strong>
+            </div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Add QRious library for QR code generation -->
+<script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <script>
+        // filepath: g:\sigiriya\booking.html
+        // ...existing code...
+        document.addEventListener('DOMContentLoaded', function() {
+            const adultsInput = document.getElementById('adults');
+            const childrenInput = document.getElementById('children');
+            const nextBtn = document.getElementById('nextBtn');
+
+            nextBtn.addEventListener('click', function() {
+                const adults = parseInt(adultsInput.value, 10) || 0;
+                const children = parseInt(childrenInput.value, 10) || 0;
+                const adultPrice = 120;
+                const childPrice = 60;
+                const adultsAmt = adults * adultPrice;
+                const childrenAmt = children * childPrice;
+                const total = adultsAmt + childrenAmt;
+
+                document.getElementById('confAdults').textContent = adults;
+                document.getElementById('confAdultsAmt').textContent = adultsAmt.toFixed(2);
+                document.getElementById('confChildren').textContent = children;
+                document.getElementById('confChildrenAmt').textContent = childrenAmt.toFixed(2);
+                document.getElementById('confTotal').textContent = total.toFixed(2);
+                document.getElementById('confCombinedTotal').textContent = total.toFixed(2);
+
+                var modal = new bootstrap.Modal(document.getElementById('confirmationModal'));
+                modal.show();
+            });
+        });
+        
+
+        
+        </script>
+
+        <script>
+            // filepath: g:\sigiriya\booking.html
+            document.addEventListener('DOMContentLoaded', function() {
+                // ...existing code for local booking...
+
+                const foreignAdultsInput = document.getElementById('foreignAdults');
+                const foreignChildrenInput = document.getElementById('foreignChildren');
+                const foreignNextBtn = document.getElementById('foreignNextBtn');
+
+                if (foreignNextBtn) {
+                    foreignNextBtn.addEventListener('click', function() {
+                        const adults = parseInt(foreignAdultsInput.value, 10) || 0;
+                        const children = parseInt(foreignChildrenInput.value, 10) || 0;
+                        const adultPrice = 35; // USD
+                        const childPrice = 20; // USD
+                        const adultsAmt = adults * adultPrice;
+                        const childrenAmt = children * childPrice;
+                        const total = adultsAmt + childrenAmt;
+
+                        document.getElementById('confAdults').textContent = adults;
+                        document.getElementById('confAdultsAmt').textContent = adultsAmt.toFixed(2) + " USD";
+                        document.getElementById('confChildren').textContent = children;
+                        document.getElementById('confChildrenAmt').textContent = childrenAmt.toFixed(2) + " USD";
+                        document.getElementById('confTotal').textContent = total.toFixed(2) + " USD";
+                        document.getElementById('confCombinedTotal').textContent = total.toFixed(2) + " USD";
+
+                        var modal = new bootstrap.Modal(document.getElementById('confirmationModal'));
+                        modal.show();
+                    });
+                }
+            });
+
+            
+        </script>
+
+        <script>
+            // Generate ticket function
+document.getElementById('generateTicketBtn').addEventListener('click', function() {
+    // Get booking details from modal
+    let isForeign = document.getElementById('confType').textContent.includes('Foreign');
+    let adults = parseInt(document.getElementById('confAdults').textContent) || 0;
+    let children = parseInt(document.getElementById('confChildren').textContent) || 0;
+    let totalAmount = parseFloat(document.getElementById('confTotal').textContent) || 0;
+    
+    let currency = isForeign ? "USD" : "LKR";
+    let ticketType = isForeign ? "F_FOREIGN" : "L_LOCAL";
+    
+    // Generate serial number
+    let serial = "SI/NW/2024/" + (isForeign ? "F" : "L") + "/" + Math.floor(Math.random()*100000000);
+    
+    // Get current date and time
+    let now = new Date();
+    let dateStr = now.toLocaleDateString('en-GB', { 
+        day: '2-digit', 
+        month: '2-digit', 
+        year: 'numeric' 
+    }) + " / " + now.toLocaleTimeString('en-GB', { 
+        hour: '2-digit', 
+        minute: '2-digit',
+        hour12: true
+    });
+    
+    // QR data
+    let qrData = serial + "|" + ticketType + "|ADULT|" + totalAmount + " " + currency + "|" + dateStr;
+    
+    // Fill ticket details
+    document.getElementById('ticketSerial').textContent = serial;
+    document.getElementById('ticketDate').textContent = dateStr;
+    document.getElementById('ticketType').textContent = ticketType;
+    document.getElementById('ticketPerson').textContent = "ADULT";
+    document.getElementById('ticketAmount').textContent = currency + " " + totalAmount.toFixed(0);
+    
+    // Generate QR code
+    var qr = new QRious({
+        element: document.getElementById('ticketQRCanvas'),
+        value: qrData,
+        size: 200,
+        foreground: '#000000',
+        background: '#ffffff'
+    });
+    
+    // Show ticket in new window for printing
+    let ticketContent = document.getElementById('ticketDiv').innerHTML;
+    let printWindow = window.open('', '', 'width=400,height=600');
+    printWindow.document.write(`
+        <html>
+            <head>
+                <title>Sigiriya Ticket</title>
+                <style>
+                    body { margin: 20px; font-family: Arial, sans-serif; }
+                    @media print {
+                        body { margin: 0; }
+                        .no-print { display: none; }
+                    }
+                </style>
+            </head>
+            <body>
+                <div style="font-family: Arial, sans-serif; width:300px; margin:0 auto; border:1px solid #000; padding:15px; background:white;">
+                    ${ticketContent}
+                </div>
+                <div class="no-print" style="text-align:center; margin-top:20px;">
+                    <button onclick="window.print()">Print Ticket</button>
+                    <button onclick="window.close()">Close</button>
+                </div>
+            </body>
+        </html>
+    `);
+    printWindow.document.close();
+});
+        </script>
+    </body>
+
+</html>
